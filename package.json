@@ -1,0 +1,30 @@
+{
+  "name": "nodejs_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "train": "nodemon train.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/islam9599/NodeJS_3_Core_modules.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/islam9599/NodeJS_3_Core_modules/issues"
+  },
+  "homepage": "https://github.com/islam9599/NodeJS_3_Core_modules#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.6",
+    "moment": "^2.29.4",
+    "uuid": "^9.0.1",
+    "validator": "^13.11.0"
+  }
+}
