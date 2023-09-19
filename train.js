@@ -14,11 +14,17 @@
 const checkSimilarity = (a, b) => {
   const a_string = a.toLowerCase().split("");
   const b_string = b.toLowerCase().split("");
-  if (a_string.sort().join("") === b_string.sort().join("")) {
-    console.log(a_string, b_string);
-    return true;
-  }
+  // if (a_string.sort().join("") === b_string.sort().join("")) {
+  //   console.log(a_string, b_string);
+  //   return true;
+  // }
+  return a_string.sort().join("") === b_string.sort().join("");
 };
 
-const test1 = checkSimilarity("pplea", "apple");
+const test1 = checkSimilarity("lngsie", "single");
 console.log(test1);
+
+// //delete the node modules folder by running rm -rf node_modules.
+// delete package.lock.json file by running rm -f package-lock.json.
+// clean up the NPM cache by running npm cache clean --force.
+// install all packages again by running npm install.
